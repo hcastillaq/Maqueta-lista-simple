@@ -62,7 +62,7 @@ void insertar_por_cola(nodo *p){
         k->sig = p;
         p->sig = NULL;
     }else{
-        insertar_por_cabeza(p)
+        insertar_por_cabeza(p);
     }
 }
 
